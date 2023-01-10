@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="field()">
+    <header></header>
+    <main>
+
+        <div>
+            <label for="sizeInput">Select Size</label>
+
+            <select id="selectField" name="select">
+                <option class="" value="" default></option>
+                <option class="" value="4">4 x 4</option>
+                <option class="" value="6">6 x 6</option>
+                <option class="" value="8">8 x 8</option>
+            </select>
+        </div>
+
+        <div>
+            <table id="gameField"></table>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
